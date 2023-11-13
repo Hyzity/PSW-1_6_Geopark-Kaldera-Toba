@@ -1,0 +1,39 @@
+h2 {
+    text-align: center;
+    float: right;
+    margin-left: 100px;
+}
+
+p {
+    text-align: right;
+    width: 799px;
+    height: 190px;
+    flex-shrink: 0;
+}
+
+img {
+    width: 70   86px;
+    height: 420px;
+    flex-shrink: 0;
+}
+
+table {
+    justify-content: center;
+    text-align: center;
+    display: flex;
+}
+
+.sa {
+    float: left;
+    margin-right: 10px;
+    width: 650px;
+    height: 350px;
+    border: 2px solid black;
+}
+
+.du {
+    float: right;
+    margin-left: 10px;
+    width: 650px;
+    height: 700px
+}
