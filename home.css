@@ -5,7 +5,7 @@
 .flex-container {
   display: flex;
   flex-direction: row;
-  font-size: 30px;
+  font-size: 14px;
   text-align: center;
 }
 
@@ -25,4 +25,8 @@
   .flex-container {
     flex-direction: column;
   }
+}
+img.sa{
+  max-width: 100%;
+  height: auto;
 }
