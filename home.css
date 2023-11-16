@@ -1,34 +1,125 @@
+
 * {
   box-sizing: border-box;
 }
-
+body{
+  font-family:sans-serif;
+  background-color: gray;
+  color: aliceblue;
+}
 .flex-container {
   display: flex;
   flex-direction: row;
-  font-size: 30px;
+  font-size: 20px;
   text-align: center;
 }
-
+.right p{
+  text-align: left;
+}
+.left p{
+  text-align: right;
+}
+.bg1{
+  text-align: center;
+  width: auto;
+}
+.p-2 img{
+  width: 100%;
+  height: auto;
+  filter: brightness(50%);
+}
+.img-fluid img{
+  width: 1400px;
+  height: 800px;
+  filter: brightness(40%);
+  position: relative; 
+}
+.highlight{
+  font-size: 30px;
+  border-top: 10px solid black;
+  padding: 30px;
+}
+.highlight h2{
+  font-weight: bolder;
+}
 h1 {
   width: 450px;
   height: 250px;
   border-right: 8px solid black;
 }
-
+.flex-column{
+  position: relative;
+  text-align: center;
+  color: white;
+}
 .flex-item-left {
-  background-color: #f1f1f1;
   padding: 10px;
   flex: 50%;
 }
-
 .flex-item-right {
-  background-color: dodgerblue;
   padding: 10px;
   flex: 50%;
 }
-
+img.sa{
+  width: 100%;
+  height: 20px;
+  height: auto;
+}
 @media (max-width: 800px) {
   .flex-container {
     flex-direction: column;
+  }
+}
+.flex-container img{
+  border-radius: 30px;
+  border: 10px double gold;
+}
+
+.menu{
+  padding: 20px;
+  position: sticky;
+  background-color: rgba(0, 0, 0, 0.127)
+}
+.menu {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background-color: #ffffffc3; /* Change the background color if needed */
+}
+
+.dropdown-menu {
+  background-color: #ffffff56;
+}
+
+.menu a{
+  color: black;
+}
+
+/* Default styles */
+.jdla {
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 4vw;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.jdlb {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 2.5vw;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  .jdla {
+    font-size: 6vw; /* Adjusted font size for smaller screens */
+  }
+
+  .jdlb {
+    font-size: 3.5vw; /* Adjusted font size for smaller screens */
   }
 }
