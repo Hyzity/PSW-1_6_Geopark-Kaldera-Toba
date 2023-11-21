@@ -1,0 +1,51 @@
+body{
+    background-color: #D9D9D9;
+}
+
+.menu {
+  padding: 20px;
+  position: sticky;
+  background-color: rgba(0, 0, 0, 0.127);
+}
+.menu {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background-color: #ffffffc3;
+}
+
+.dropdown-menu {
+  background-color: #ffffff;
+}
+
+.menu a {
+  color: black;
+}
+.head-nav{
+    border-top: 5px solid black;
+    padding: 20px;
+    border-bottom: 2px dotted black;
+}
+
+.d-flex h1{
+    font-size: 70px;
+    font-weight: bold;
+    color: black;
+    font-style: italic;
+}
+.layout p{
+    border: 3px solid black;
+    padding: 10px;
+    margin: 10px;
+}
+.selector-for-some-widget {
+    box-sizing: content-box;
+  }
+.container{
+    padding: 20px;
+}
+.unescotoba{
+    width: 600px;
+    margin-top: 10px;
+    border: 1px solid black;
+}
