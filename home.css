@@ -45,6 +45,7 @@ body{
 h1 {
   width: 450px;
   height: 250px;
+  padding: 20px;
   border-right: 8px solid black;
 }
 .flex-column{
@@ -84,7 +85,7 @@ img.sa{
   position: sticky;
   top: 0;
   z-index: 1000;
-  background-color: #ffffffc3; /* Change the background color if needed */
+  background-color: #ffffffc3; 
 }
 
 .dropdown-menu {
@@ -95,10 +96,11 @@ img.sa{
   color: black;
 }
 
-/* Default styles */
+
 .jdla {
   position: absolute;
   top: 15%;
+  font-weight: bolder;
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 4vw;
@@ -108,18 +110,46 @@ img.sa{
 .jdlb {
   position: absolute;
   top: 30%;
+  font-weight: bolder;
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 2.5vw;
 }
 
-/* Media query for smaller screens */
+.jdlc {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 1.0vw;
+}
+
 @media (max-width: 768px) {
   .jdla {
-    font-size: 6vw; /* Adjusted font size for smaller screens */
+    font-size: 6vw;
   }
 
   .jdlb {
-    font-size: 3.5vw; /* Adjusted font size for smaller screens */
+    font-size: 3.5vw
   }
+}
+
+#judul{
+  font-weight: 1000;
+  border-bottom: 1px solid black;
+}
+
+#hligh{
+  font-weight: 700;
+  padding: 20px;
+  border-bottom: 10px double black;
+}
+p{
+  letter-spacing: -1px; 
+}
+.judul_tempat{
+  font-weight: 700;
+  padding: 20px;
+  font-family:sans-serif;
+  word-spacing: 2px;
 }

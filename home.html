@@ -15,6 +15,9 @@
 
 <body>
     <div class="menu">
+        <div class="d-flex justify-content-center">
+            <h2 id="judul">Kaldera Geopark Toba</h2>
+        </div>
         <ul class="nav justify-content-center"> 
             <li class="nav-item">
               <a class="nav-link active" href="#">Beranda</a>
@@ -39,17 +42,22 @@
     </div>
     
     <div class="d-flex flex-column" >
-        <div class="p-2"><img src="./assets/bgnav.jpg" class="img-fluid" alt="Responsive image"></div>
+        <div class="p-2" style="max-width: 100%; height: 400px; overflow: hidden;">
+            <img src="./assets/bg1.jpg" class="img-fluid w-100 h-100" style="object-fit: cover;" alt="Responsive image">
+          </div>
+          
         <div class="jdla">Kaldera Geopark</div>
         <div class="jdlb">Toba</div>
+        <div class="jdlc" id="text-container"></div>
+
       </div>
     </div>
     
     <div class="flex-container">    
         <div class="flex-item-left">
-            <h1>Introduction <br> Toba </h1>
+            <h1 align="right">Introduction <br> Toba </h1>
         </div>
-        <div class="flex-item-left">
+        <div class="flex-item-left" align="left">
             <p>Danau Toba adalah danau alami berukuran besar di Indonesia yang berada di
                 kaldera gunung upervulkan. Danau ini memiliki panjang 100 kilometer, lebar 30 kilometer, dan kedalaman
                 508 meter. Danau ini terletak di tengah pulau Sumatra bagian utara dengan ketinggian permukaan sekitar
@@ -60,16 +68,16 @@
         </div>
 
     </div>
-    <center class="highlight">
-        <h2>HIGHLIGHT</h2>
-    </center>
+    <div class="d-flex justify-content-center highlight">
+        <h2 id="hligh">HIGHLIGHT</h2>
+    </div>
 
+    <h2 class="d-flex justify-content-center head-nav judul_tempat">Geopark Toba Sipincur</h2>
     <div class="flex-container">
         <div class="flex-item-right">
             <img class="sa" src="./assets/Rectangle 5.png" alt="Geosite Sipinsur" />
         </div>
         <div class="flex-item-left right">
-            <h2>Geoparak Toba Sipiincur</h2>
             <p>
                 Geosite Sipinsur adalah sebuah taman atau kawasan wisata alam di
                 tepian Danau Toba, tepatnya di desa Pearung, kecamatan Paranginan,
@@ -80,10 +88,10 @@
             </p>
         </div>
     </div>
+    <h2 class="d-flex justify-content-center head-nav judul_tempat">Geopark Toba Huta Ginjang</h2>
 
     <div class="flex-container">
         <div class="flex-item-right left">
-            <h2>Geopark Toba Huta Ginjang</h2>
             <p>
                 Berasal dari Bahasa Batak 'huta' berarti kampung dan 'ginjang' berarti
                 atas, Huta Ginjang menawarkan pemandangan Danau Toba dari ketinggian
@@ -97,7 +105,7 @@
         </div>
     </div>
 
-    <h2 align="center">The Caldera Nomadic Escape Toba</h2>
+    <h2 class="d-flex justify-content-center head-nav judul_tempat">The Caldera Nomadic Escape Toba</h2>
     <div class="flex-container">
         <div class="flex-item-right">
             <img class="sa" src="./assets/Rectangle 8.png" alt="Geosite Sipinsur" />
@@ -117,9 +125,10 @@
             </p>
         </div>
     </div>
+
+    <h2 class="d-flex justify-content-center head-nav judul_tempat">Geopark Toba Silalahi-Sabungan</h2>
     <div class="flex-container">
         <div class="flex-item-right left">
-            <h2>Geopark Toba Silalahi-Sabungan</h2>
             <p>
                 Silalahi sabungan adalah sebuah kacamatan yang berada dikabupaten
                 Dairi, Provinsi Sumatra Utara, Indonesia. Ibukota kecamatan berada di
@@ -134,6 +143,26 @@
             <img class="sa" src="./assets/Rectangle 9.png" alt="Geosite Sipinsur" />
         </div>
     </div>
+    <div class="container">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+          <p class="col-md-4 mb-0 text-muted">© 2023 PSW-1 6 Kaldera-Geopark-Toba</p>
+      
+          <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
+            <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
+          </a>
+      
+          <ul class="nav col-md-4 justify-content-end">
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Home</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Features</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Pricing</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">FAQs</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">About</a></li>
+          </ul>
+        </footer>
+      </div>
+    <script src="home.js"></script>
+
+    
 </body>
 
 </html>
