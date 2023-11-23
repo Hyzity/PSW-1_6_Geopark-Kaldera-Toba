@@ -16,6 +16,9 @@ body{
 .right p{
   text-align: left;
 }
+p{
+  line-height: 30px;
+}
 .left p{
   text-align: right;
 }
@@ -79,7 +82,7 @@ img.sa{
 .menu{
   padding: 20px;
   background-color: rgba(0, 0, 0, 0.127);
-  background-image: url("./assets/bg1.jpg");
+  background-image: url("./assets/bg(2).jpg");
   background-size: cover;
   padding-bottom: 500px;
   background-repeat:no-repeat ;  
