@@ -78,11 +78,14 @@ img.sa{
 
 .menu{
   padding: 20px;
-  position: sticky;
-  background-color: rgba(0, 0, 0, 0.127)
+  background-color: rgba(0, 0, 0, 0.127);
+  background-image: url("./assets/bg1.jpg");
+  background-size: cover;
+  padding-bottom: 500px;
+  background-repeat:no-repeat ;  
 }
 .menu {
-  position: sticky;
+  
   top: 0;
   z-index: 1000;
   background-color: #ffffffc3; 
@@ -99,9 +102,10 @@ img.sa{
 
 .jdla {
   position: absolute;
-  top: 15%;
+  top: 25%;
   font-weight: bolder;
   left: 50%;
+  color: white;
   transform: translate(-50%, -50%);
   font-size: 4vw;
   font-family: Arial, Helvetica, sans-serif;
@@ -109,7 +113,8 @@ img.sa{
 
 .jdlb {
   position: absolute;
-  top: 30%;
+  top: 35%;
+  color: white;
   font-weight: bolder;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -119,9 +124,14 @@ img.sa{
 .jdlc {
   position: absolute;
   top: 60%;
+  color: white;
   left: 50%;
+  background-color: rgba(0, 0, 0, 0.784);
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 15px;
   transform: translate(-50%, -50%);
-  font-size: 1.0vw;
+  font-size: 1.4vw;
 }
 
 @media (max-width: 768px) {
