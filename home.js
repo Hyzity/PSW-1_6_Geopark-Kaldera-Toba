@@ -38,7 +38,7 @@ const textContainer = document.getElementById("text-container");
 
     const texts = [
       "Selamat Datang di Kaldera Geopark Toba.",
-      "Website ini memberikan anda informasi mengenali Kaldera Geopark Toba.",
+      "Website ini memberikan anda informasi mengenai Kaldera Geopark Toba.",
     ];
 
     let textIndex = 0;
@@ -55,3 +55,11 @@ const textContainer = document.getElementById("text-container");
 
     // Memulai loop teks
     loopTexts();
+
+    $(document).ready(function(){
+      $('.dropdown-submenu a.test').on("click", function(e){
+        $(this).next('ul').toggle();
+        e.stopPropagation();
+        e.preventDefault();
+      });
+    });
