@@ -1,10 +1,7 @@
 
-* {
-  box-sizing: border-box;
-}
 body{
   font-family:sans-serif;
-  background-color: gray;
+  background-color: rgb(219, 219, 219);
   color: aliceblue;
 }
 .flex-container {
@@ -85,10 +82,10 @@ img.sa{
   background-image: url("./assets/bg(2).jpg");
   background-size: cover;
   padding-bottom: 500px;
-  background-repeat:no-repeat ;  
+  background-repeat:no-repeat ;
+  box-shadow: 2px black;
 }
 .menu {
-  
   top: 0;
   z-index: 1000;
   background-color: #ffffffc3; 
@@ -111,6 +108,7 @@ img.sa{
   color: white;
   transform: translate(-50%, -50%);
   font-size: 4vw;
+  text-shadow: 2px 2px 2px black;
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -119,6 +117,7 @@ img.sa{
   top: 35%;
   color: white;
   font-weight: bolder;
+  text-shadow: 2px 2px 2px black;
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 2.5vw;
@@ -150,6 +149,7 @@ img.sa{
 #judul{
   font-weight: 1000;
   border-bottom: 1px solid black;
+  
 }
 
 #hligh{
@@ -165,4 +165,7 @@ p{
   padding: 20px;
   font-family:sans-serif;
   word-spacing: 2px;
+}
+#intro{
+  font-weight: 650;
 }

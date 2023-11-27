@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(176, 191, 186);
+    background-color: rgb(219, 219, 219);
 }
 
 .menu {
@@ -22,16 +22,13 @@ body{
   color: black;
 }
 .head-nav{
-    border-top: 5px solid black;
     padding: 20px;
-    border-bottom: 2px dotted black;
 }
 
 .d-flex h1{
     font-size: 70px;
     font-weight: bold;
     color: black;
-    font-style: italic;
 }
 .layout p{
     border: 3px solid black;
@@ -49,56 +46,58 @@ body{
     margin-top: 10px;
     border: 1px solid black;
 }
-.cssbuttons-io-button {
-  background: #a370f0;
-  color: white;
-  font-family: inherit;
-  padding: 0.35em;
-  padding-left: 1.2em;
-  font-size: 17px;
-  font-weight: 500;
-  border-radius: 0.9em;
+.cta {
   border: none;
-  letter-spacing: 0.05em;
-  display: flex;
-  align-items: center;
-  box-shadow: inset 0 0 1.6em -0.6em #714da6;
-  overflow: hidden;
+  padding-left: 10px;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.122);
+}
+
+.cta span {
+  padding-bottom: 7px;
+  letter-spacing: 4px;
+  font-size: 14px;
+  padding-right: 15px;
+  text-transform: uppercase;
+}
+
+.cta svg {
+  transform: translateX(-8px);
+  transition: all 0.3s ease;
+}
+
+.cta:hover svg {
+  transform: translateX(0);
+}
+
+.cta:active svg {
+  transform: scale(0.9);
+}
+
+.hover-underline-animation {
   position: relative;
-  height: 2.8em;
-  padding-right: 3.3em;
-  cursor: pointer;
+  color: black;
+  padding-bottom: 20px;
 }
 
-.cssbuttons-io-button .icon {
-  background: white;
-  margin-left: 1em;
+.hover-underline-animation:after {
+  content: "";
   position: absolute;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 2.2em;
-  width: 2.2em;
-  border-radius: 0.7em;
-  box-shadow: 0.1em 0.1em 0.6em 0.2em #7b52b9;
-  right: 0.3em;
-  transition: all 0.3s;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #000000;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
 }
 
-.cssbuttons-io-button:hover .icon {
-  width: calc(100% - 0.6em);
+.cta:hover .hover-underline-animation:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
 }
 
-.cssbuttons-io-button .icon svg {
-  width: 1.1em;
-  transition: transform 0.3s;
-  color: #7b52b9;
-}
-
-.cssbuttons-io-button:hover .icon svg {
-  transform: translateX(0.1em);
-}
-
-.cssbuttons-io-button:active .icon {
-  transform: scale(0.95);
+.col-sm h5{
+  font-weight: 700;
 }
