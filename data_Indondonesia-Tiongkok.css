@@ -1,0 +1,51 @@
+body{
+  background: url(data.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 700px ; overflow: hidden;
+}
+.container {
+  max-width: 1000px;
+  padding: 400px;
+  font-family: Arial, sans-serif;
+  background: rgba(0,0,0, 0.5);
+  margin: auto;
+  color: white;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 0;
+}
+
+img {
+  display: block;
+  margin: auto;
+  max-width: 300px;
+  height: auto;
+  border-radius: 50%;
+}
+
+
+.info p{
+  font-size: 20px;
+}
+
+h2 {
+  font-size: 20px;
+  margin-top: 30px;
+}
+
+p {
+  margin: 10px 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0 0 0 20px;
+}
+
+li {
+  margin: 5px 0;
+}
