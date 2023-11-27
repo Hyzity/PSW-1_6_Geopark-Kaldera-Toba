@@ -8,10 +8,12 @@ body {
   background-color: rgba(225, 225, 225, 0.985);
   color: black;
 }
+
 p {
   text-align: justify;
 
 }
+
 .menu {
   padding: 10px;
   position: sticky;
@@ -30,24 +32,23 @@ p {
   color: black;
 }
 
-.container{
+.container {
   background-color: #e5e5e5;
   color: black;
   text-align: justify;
-  width: 1000px;
-  margin-right: 250px;
-  margin-left: 250px;
   margin-top: 50px;
-  margin-bottom: 0px;
+  margin-bottom: 0px;           
 }
-.pg{
+
+.pg {
   background-color: #e5e5e5;
-  margin-right:50px;
-  margin-left: 50px;
+  margin-right: 100px;
+  margin-left: 100px;
   margin-bottom: 50px;
   padding-bottom: 50px;
 }
-.unesco{
+
+.unesco {
   margin-top: 20px;
   width: 350px;
   display: block;
