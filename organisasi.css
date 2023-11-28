@@ -1,0 +1,84 @@
+body {
+    font-family: sans-serif;
+    background-image: url(./assets/vis.png);
+    color: rgb(0, 0, 0);
+}
+
+.gambar:hover {
+    filter: blur(10%);
+}
+
+.menu {
+    padding: 10px;
+    position: sticky;
+    background-color: rgba(0, 0, 0, 0.127);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: #ffffffc3;
+}
+
+.menu a {
+    color: black;
+}
+
+.dropdown-menu {
+    background-color: #ffffff;
+}
+
+h1 {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+    text-align: center;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.flex-item-left {
+    text-align: left;
+    padding: 10px;
+    flex: 50%;
+}
+
+.flex-item-right {
+    text-align: left;
+    padding: 10px;
+    flex: 50%;
+}
+
+.struktur {
+    background-color: rgb(255, 255, 255);
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
+.visi-misi {
+    background-color: rgb(255, 255, 255);
+    margin-left: 150px;
+    margin-right: 150px;
+    padding-bottom: 50px;
+}
+
+.struktur-1 {
+    margin-right: 100px;
+    margin-left: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+footer {
+    border-radius: 20px;
+}

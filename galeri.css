@@ -12,41 +12,6 @@ body {
   font-size: 20px;
   text-align: center;
 }
-.right p {
-  text-align: left;
-}
-.left p {
-  text-align: right;
-}
-.bg1 {
-  text-align: center;
-  width: auto;
-}
-.p-2 img {
-  width: 100%;
-  height: auto;
-  filter: brightness(50%);
-}
-.img-fluid img {
-  width: 1400px;
-  height: 800px;
-  filter: brightness(40%);
-  position: relative;
-}
-.highlight {
-  font-size: 30px;
-  border-top: 10px solid black;
-  padding: 30px;
-}
-.highlight h2 {
-  font-weight: bolder;
-}
-h1 {
-  width: 450px;
-  height: 250px;
-  padding: 20px;
-  text-align: center;
-}
 .flex-column {
   position: relative;
   text-align: center;
@@ -59,6 +24,10 @@ h1 {
 .flex-item-right {
   padding: 10px;
   flex: 50%;
+}
+h1 {
+  text-align: center;
+  font-family: unset;
 }
 img.sa {
   width: 100%;
