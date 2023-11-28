@@ -1,10 +1,9 @@
-
 body {
   font-family: sans-serif;
   background-color: rgb(219, 219, 219);
   color: rgb(0, 0, 0);
 }
-.gambar:hover{
+.gambar:hover {
   filter: blur(10%);
 }
 .menu {
@@ -41,30 +40,30 @@ body {
 .right p {
   text-align: left;
 }
-.left p{
+.left p {
   text-align: right;
 }
-.bg1{
+.bg1 {
   text-align: center;
   width: auto;
 }
-.p-2 img{
+.p-2 img {
   width: 100%;
   height: auto;
   filter: brightness(50%);
 }
-.img-fluid img{
+.img-fluid img {
   width: 1400px;
   height: 800px;
   filter: brightness(40%);
-  position: relative; 
+  position: relative;
 }
-.highlight{
+.highlight {
   font-size: 30px;
   border-top: 10px solid black;
   padding: 30px;
 }
-.highlight h2{
+.highlight h2 {
   font-weight: bolder;
 }
 h1 {
@@ -73,82 +72,80 @@ h1 {
   padding: 20px;
   border-right: 8px solid black;
 }
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  font-size: 20px;
+  text-align: center;
+}
+.right p {
+  text-align: left;
+}
+.left p {
+  text-align: right;
+}
+.bg1 {
+  text-align: center;
+  width: auto;
+}
+.p-2 img {
+  width: 100%;
+  height: auto;
+  filter: brightness(50%);
+}
+.img-fluid img {
+  width: 1400px;
+  height: 800px;
+  filter: brightness(40%);
+  position: relative;
+}
+.highlight {
+  font-size: 30px;
+  border-top: 10px solid black;
+  padding: 30px;
+}
+.highlight h2 {
+  font-weight: bolder;
+}
+
+.flex-column {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.flex-item-left {
+  padding: 10px;
+  flex: 50%;
+}
+.flex-item-right {
+  padding: 10px;
+  flex: 50%;
+}
+img.sa {
+  width: 100%;
+  height: 20px;
+  height: auto;
+}
+@media (max-width: 800px) {
   .flex-container {
-    display: flex;
-    flex-direction: row;
-    font-size: 20px;
-    text-align: center;
+    flex-direction: column;
   }
-  .right p{
-    text-align: left;
-  }
-  .left p{
-    text-align: right;
-  }
-  .bg1{
-    text-align: center;
-    width: auto;
-  }
-  .p-2 img{
-    width: 100%;
-    height: auto;
-    filter: brightness(50%);
-  }
-  .img-fluid img{
-    width: 1400px;
-    height: 800px;
-    filter: brightness(40%);
-    position: relative; 
-  }
-  .highlight{
-    font-size: 30px;
-    border-top: 10px solid black;
-    padding: 30px;
-  }
-  .highlight h2{
-    font-weight: bolder;
-  }
-
-
-  .flex-column{
-    position: relative;
-    text-align: center;
-    color: white;
-  }
-  .flex-item-left {
-    padding: 10px;
-    flex: 50%;
-  }
-  .flex-item-right {
-    padding: 10px;
-    flex: 50%;
-  }
-  img.sa{
-    width: 100%;
-    height: 20px;
-    height: auto;
-  }
-  @media (max-width: 800px) {
-    .flex-container {
-      flex-direction: column;
-    }
-  }
-  .flex-container img{
-    border-radius: 30px;
-    border: 10px double gold;
-  }
+}
+.flex-container img {
+  border-radius: 30px;
+  border: 10px double gold;
+}
 
 .flex-container img {
   border-radius: 50px;
   border: 10px double rgb(44, 101, 157);
 }
-.row div{
+.row div {
   border: 2px solid black;
 }
-.row h2{
+.row h2 {
   font-weight: 600;
 }
-
 
 .button {
   position: relative;
@@ -189,7 +186,7 @@ h1 {
 .button:hover::before {
   animation: shine 1.5s ease-out infinite;
 }
-p{
+p {
   line-height: 25px;
 }
 .button::before {
@@ -222,16 +219,71 @@ p{
   }
 }
 
-#judul{
+#judul {
   font-weight: 700;
   color: black;
   border-bottom: 1px solid black;
 }
 
-.flex-container h2{
+.flex-container h2 {
   font-weight: 700;
   border-bottom: 1px solid;
 }
-.d-flex{
+.d-flex {
   background-color: white;
+}
+
+.arrow {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+
+.next {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+.before {
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+}
+.beforear button {
+  font-size: 15px;
+  border-radius: 10px;
+  border: 2px solid black;
+  background-color: rgb(219, 219, 219);
+}
+.beforear button:hover{
+  background-color: rgb(171, 171, 171);
+  font-size: 15px;
+  transition: 0.2s;
+}
+.nextar button {
+  background-color: rgb(219, 219, 219);
+  font-size: 15px;
+  border-radius: 10px;
+  transition: 0.2s;
+}
+
+.nextar button:hover {
+  background-color: rgb(171, 171, 171);
+  font-size: 15px;
+  transition: 0.2s;
+}
+
+.page {
+  border-radius: 100px;
+  margin: 5px;
+  transition: 0.2s;
+}
+.page:hover {
+  background-color: rgb(219, 219, 219);
+  transition: 0.2s;
+}
+
+footer{
+  background-color: rgba(0, 0, 0, 0.751);
+  border-radius: 20px;
 }
