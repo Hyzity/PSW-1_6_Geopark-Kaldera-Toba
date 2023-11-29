@@ -1,0 +1,29 @@
+body{
+    background-image: url(./assets/tiongkok-indonesia.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.isi{
+    background-color: rgba(255, 255, 255, 0.900);
+    border: 1px solid black;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.gambar{
+    width: 250px;
+}
+.judul{
+    margin-top:10px;
+    font-weight: 600;
+    font-size: 35px;
+}
+.subjudul{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 650;
+    margin: 20px;
+    font-size: 25px;
+}
+.teks{
+    text-align: justify;
+}

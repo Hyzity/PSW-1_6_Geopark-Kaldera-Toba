@@ -2,28 +2,165 @@
 <html lang="en">
 
 <head>
-    <link rel="stylesheet" href="data_unesco.css">
-    <div class="judul">
-    <center>
-    <h1>DATA KERJASAMA</h1>
-    </center>
-    </div>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kerjasama - Kaldera Geopark Toba</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./bootstrap-5.3.2-dist/css/bootstrap.css">
+
+    <!--Link CSS (Dikhususkan sesuai dengan kebutuhan website. Opsional jika tidak dipakai)-->
+    <link rel="stylesheet" href="./data_unesco.css">
+    <link rel="stylesheet" href="menu.css">
+    <link rel="stylesheet" href="navbar.css">
 </head>
-    <body>
-        <div class="container">
-            <h1>Profil</h1>
-            <img src="profilunesco.png" alt="Foto Organisasi" />
-            <div class="info">
-              <h2>Penetapan sebagai Unesco</h2>
-              <p>Pemerintah Indonesia telah berhasil meyakinkan UNESCO bahwa Kaldera Toba memiliki kaitan geologis dan warisan tradisi yang tinggi dengan masyarakat lokal khususnya dalam hal budaya dan keanekaragaman hayati. Dalam konteks inilah, negara anggota UNESCO mendukung Kaldera Toba dilestarikan dan dilindungi sebagai bagian dari UNESCO Global Geopark. “Melalui penetapan ini, Indonesia dapat mengembangkan geopark Kaldera Toba melalui jaringan Global Geoparks Network dan Asia Pacific Geoparks Network khususnya dalam kaitan pemberdayaan masyarakat lokal,” tutur Dubes RI, Arrmanatha Nasir, setelah penetapan Kaldera Toba.</p>
-              <h2>Data</h2>
-              <ul>
+
+<body>
+
+    <div class="menu">
+        <ul class="nav justify-content-center">
+            <li class="nav-item">
+
+                <a class="nav-link active" href="home.html">Beranda</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="tempat.html">Tempat</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="berita.html">Berita</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="galeri.html">Galeri</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="history.html">Sejarah</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Tentang Kami</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a href="" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Lainnya</a>
+
+                <ul class="dropdown-menu">
+                    <li><a href="" class="dropdown-item">Kerjasama &raquo;</a>
+                        <ul class="dropdown-menu submenu">
+                            <li><a href="./data_ind_chn.html" class="dropdown-item">Indonesia-China</a></li>
+                            <li><a href="./data_unesco.html" class="dropdown-item">UNESCO</a></li>
+                        </ul>
+                    <li><a href="" class="dropdown-item">Geopark &raquo;</a>
+                        <ul class="dropdown-menu submenu">
+                            <li><a href="" class="dropdown-item">Geopark Kaldera Toba</a></li>
+                            <li><a href="organisasi.html" class="dropdown-item">Organisasi</a></li>
+                            <li><a href="visi_misi.html" class="dropdown-item">Visi Misi</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="" class="dropdown-item">Geosite &raquo;</a>
+                        <ul class="dropdown-menu submenu">
+                            <li><a href="" class="dropdown-item"> Simalungun &raquo;</a>
+                                <ul class="dropdown-menu submenu multi-menu">
+                                    <li><a href="" class="dropdown-item">Haranggaol</a></li>
+                                    <li><a href="" class="dropdown-item">Sibaganding</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="" class="dropdown-item"> Toba Samosir &raquo;</a>
+                                <ul class="dropdown-menu submenu multi-menu">
+                                    <li><a href="" class="dropdown-item">Batu Basiha-TB Silalahi Balige</a></li>
+                                    <li><a href="" class="dropdown-item">Situmurun</a></li>
+                                    <li><a href="" class="dropdown-item">Taman Eden</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="" class="dropdown-item"> Humbang Hasundutan &raquo;</a>
+                                <ul class="dropdown-menu submenu multi-menu">
+                                    <li><a href="" class="dropdown-item">Sipincur</a></li>
+                                    <li><a href="" class="dropdown-item">Bakara-Tipang</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="" class="dropdown-item"> Tapanuli Utara &raquo;</a>
+                                <ul class="dropdown-menu submenu multi-menu">
+                                    <li><a href="" class="dropdown-item">Hutaginjang</a></li>
+                                    <li><a href="" class="dropdown-item">Muara Sibandang</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="" class="dropdown-item"> Dairi</a>
+                                <ul class="dropdown-menu submenu multi-menu">
+                                    <li><a href="" class="dropdown-item">Silalahi-Sabungan</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="" class="dropdown-item"> Karo</a>
+                                <ul class="dropdown-menu submenu multi-menu">
+                                    <li><a href="" class="dropdown-item">Sipisopiso-Tongging</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="" class="dropdown-item"> Samosir &raquo;</a>
+                                <ul class="dropdown-menu submenu multi-menu">
+                                    <li><a href="" class="dropdown-item">Tele</a></li>
+                                    <li><a href="" class="dropdown-item">Pusukbuhit</a></li>
+                                    <li><a href="" class="dropdown-item">Hutatinggi Sodihoni</a></li>
+                                    <li><a href="" class="dropdown-item">Ambarita-Tuktuk-Tomok</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+
+
+    <div class="container isi">
+        <div class="d-flex justify-content-center">
+            <h2 class="judul">Data Kerjasama</h2>
+        </div>
+        <div class="d-flex justify-content-center">
+            <img src="./assets/profilunesco.png" alt="profiltiongkok" class="gambar">
+        </div>
+        <div class="d-flex justify-content-center">
+            <h2 class="subjudul">Penetapan Kerjasama dengan UNESCO</h2>
+        </div>
+        <div class="d-flex justify-content-center">
+            <p class="teks">Pemerintah Indonesia telah berhasil meyakinkan UNESCO bahwa Kaldera Toba memiliki kaitan
+                geologis dan warisan tradisi yang tinggi dengan masyarakat lokal khususnya dalam hal budaya dan
+                keanekaragaman hayati. Dalam konteks inilah, negara anggota UNESCO mendukung Kaldera Toba dilestarikan
+                dan dilindungi sebagai bagian dari UNESCO Global Geopark. “Melalui penetapan ini, Indonesia dapat
+                mengembangkan geopark Kaldera Toba melalui jaringan Global Geoparks Network dan Asia Pacific Geoparks
+                Network khususnya dalam kaitan pemberdayaan masyarakat lokal,” tutur Dubes RI, Arrmanatha Nasir, setelah
+                penetapan Kaldera Toba.</p>
+        </div>
+
+        <div class="d-flex justify-content-center">
+            <h2 class="subjudul">Data</h2>
+            <ul>
                 <li>Tanggal : 7 Juli 2020</li>
                 <li>Tempat : Paris</li>
                 <li>Sidang ke-209 oleh Dewan Eksekutif UNESCO</li>
-                <LI>Konferensi dalam negri : Kaldera Toba berhasil masuk daftar UNESCO setelah dinilai dan diputuskan oleh UNESCO Global Geoparks Council pada Konferensi Internasional UNESCO Global Geoparks ke-IV di Lombok, Indonesia, pada tanggal 31 Agustus-2 September 2019.  </LI>
-              </ul>
-            </div>
-          </div>  
-    </body>
+                <li>Konferensi dalam negeri :<br>
+                    Kaldera Toba berhasil masuk daftar UNESCO setelah dinilai dan diputuskan oleh UNESCO Global Geoparks
+                    Council pada Konferensi Internasional UNESCO Global Geoparks ke-IV di Lombok, Indonesia, pada
+                    tanggal 31 Agustus-2 September 2019. </li>
+            </ul>
+        </div>
+
+    </div>
+
+
+    <div class="container">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top"
+            style="background-color: rgba(255, 255, 255, 0.900); padding: 10px;">
+            <p class="col-md-4 mb-0 text-muted">© 2023 PSW-1 6 Kaldera-Geopark-Toba</p>
+
+            <ul class="nav col-md-4 justify-content-end">
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Beranda</a></li>
+                <li class="nav-item"><a href="./tempat.html" class="nav-link px-2 text-muted">Tempat</a></li>
+                <li class="nav-item"><a href="./berita.html" class="nav-link px-2 text-muted">Berita</a></li>
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">About Us</a></li>
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">#</a></li>
+            </ul>
+
+        </footer>
+    </div>
+    <script src="navbar.js"></script>
+</body>
+
 </html>

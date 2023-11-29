@@ -1,0 +1,38 @@
+body {
+    font-family: sans-serif;
+    background-color: rgb(219, 219, 219);
+    color: rgb(0, 0, 0);
+  }
+  .gambar:hover {
+    filter: blur(10%);
+  }
+  .menu {
+    padding: 10px;
+    position: sticky;
+    background-color: rgba(0, 0, 0, 0.127);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: #ffffffc3;
+  }
+  
+  .dropdown-menu {
+    background-color: #ffffff;
+  }
+  
+  .menu a {
+    color: black;
+  }
+  
+  .head-nav {
+    border-top: 5px solid black;
+    padding: 20px;
+    border-bottom: 2px dotted black;
+  }
+  
+  .flex-container {
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+    text-align: center;
+  }
