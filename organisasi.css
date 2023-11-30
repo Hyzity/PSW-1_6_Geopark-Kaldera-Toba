@@ -48,28 +48,34 @@ h2 {
 }
 
 .flex-item-left {
-    text-align: left;
+    text-align: justify;
     padding: 10px;
     flex: 50%;
 }
 
 .flex-item-right {
-    text-align: left;
+    text-align: justify;
     padding: 10px;
     flex: 50%;
 }
 
 .struktur {
-    background-color: rgb(255, 255, 255);
+    background-color: #f1f1f1;
     margin-left: 250px;
     margin-right: 250px;
+    padding-top: 50px;
+    margin-top: 50px;
+    border-radius: 20px;
 }
 
 .visi-misi {
-    background-color: rgb(255, 255, 255);
+    background-color: #f1f1f1;
     margin-left: 150px;
     margin-right: 150px;
     padding-bottom: 50px;
+    padding-top: 50px;
+    margin-top: 50px;
+    border-radius: 50px;
 }
 
 .struktur-1 {
