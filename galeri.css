@@ -1,10 +1,26 @@
 * {
   box-sizing: border-box;
 }
-body {
+body{
+  background-image: url(./assets/bg2.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.container h1{
+  font-weight: 700;
+  padding: 10px;
+  padding-bottom: 50px;
+  border-bottom:1px solid white ;
+}
+.container h2{
+  font-weight: 600;
+  padding: 10px;
+}
+.container {
   font-family: sans-serif;
-  background-color: gray;
-  color: aliceblue;
+  padding: 50px;
+  background-color: rgb(219, 219, 219);
+  color: black;
 }
 .flex-container {
   display: flex;
