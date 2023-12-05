@@ -7,8 +7,13 @@ body{
 .container{
     background-color: rgb(219, 219, 219);
     padding-top: 50px;
+    text-align: justify;
 }
+.d-flex{
+    margin-right: 20px;
+    margin-left: 20px;
 
+}
 #judul{
     font-weight: 700;
 }
