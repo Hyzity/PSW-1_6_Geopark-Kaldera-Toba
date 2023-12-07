@@ -1,231 +1,185 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Tempat</title>
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      crossorigin="anonymous"
-    />
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
-      crossorigin="anonymous"
-    ></script>
-    <link rel="stylesheet" href="./bootstrap-5.3.2-dist/css/bootstrap.css" />
 
-    <link rel="stylesheet" href="lokasi.css" />
-    <link rel="stylesheet" href="menu.css" />
-    <link rel="stylesheet" href="navbar.css" />
-  </head>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tempat</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+    crossorigin="anonymous" />
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="./bootstrap-5.3.2-dist/css/bootstrap.css" />
 
-  <body>
-    <div class="menu">
-      <ul class="nav justify-content-center">
-        <li class="nav-item">
-          <a class="nav-link active" href="home.html">Beranda</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="tempat.html">Tempat</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="berita.html">Berita</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="galeri.html">Galeri</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="history.html">Sejarah</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Tentang Kami</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a href="" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"
-            >Lainnya</a
-          >
+  <link rel="stylesheet" href="lokasi.css" />
+  <link rel="stylesheet" href="menu.css" />
+  <link rel="stylesheet" href="navbar.css" />
+</head>
 
-          <ul class="dropdown-menu">
-            <li>
-              <a href="" class="dropdown-item">Kerjasama &raquo;</a>
-              <ul class="dropdown-menu submenu">
-                <li>
-                  <a href="./data_ind_chn.html" class="dropdown-item"
-                    >Indonesia-China</a
-                  >
-                </li>
-                <li>
-                  <a href="./data_unesco.html" class="dropdown-item">UNESCO</a>
-                </li>
-              </ul>
-            </li>
-
-            <li>
-              <a href="" class="dropdown-item">Geopark &raquo;</a>
-              <ul class="dropdown-menu submenu">
-                <li>
-                  <a href="" class="dropdown-item">Geopark Kaldera Toba</a>
-                </li>
-                <li>
-                  <a href="organisasi.html" class="dropdown-item">Organisasi</a>
-                </li>
-                <li>
-                  <a href="visi_misi.html" class="dropdown-item">Visi Misi</a>
-                </li>
-              </ul>
-            </li>
-            <li>
-              <a href="" class="dropdown-item">Geosite &raquo;</a>
-              <ul class="dropdown-menu submenu">
-                <li>
-                  <a href="" class="dropdown-item"> Simalungun &raquo;</a>
-                  <ul class="dropdown-menu submenu multi-menu">
-                    <li><a href="" class="dropdown-item">Haranggaol</a></li>
-                    <li><a href="" class="dropdown-item">Sibaganding</a></li>
-                  </ul>
-                </li>
-                <li>
-                  <a href="" class="dropdown-item"> Toba Samosir &raquo;</a>
-                  <ul class="dropdown-menu submenu multi-menu">
-                    <li>
-                      <a href="" class="dropdown-item"
-                        >Batu Basiha-TB Silalahi Balige</a
-                      >
-                    </li>
-                    <li><a href="" class="dropdown-item">Situmurun</a></li>
-                    <li><a href="" class="dropdown-item">Taman Eden</a></li>
-                  </ul>
-                </li>
-                <li>
-                  <a href="" class="dropdown-item">
-                    Humbang Hasundutan &raquo;</a
-                  >
-                  <ul class="dropdown-menu submenu multi-menu">
-                    <li><a href="" class="dropdown-item">Sipincur</a></li>
-                    <li><a href="" class="dropdown-item">Bakara-Tipang</a></li>
-                  </ul>
-                </li>
-                <li>
-                  <a href="" class="dropdown-item"> Tapanuli Utara &raquo;</a>
-                  <ul class="dropdown-menu submenu multi-menu">
-                    <li><a href="" class="dropdown-item">Hutaginjang</a></li>
-                    <li>
-                      <a href="" class="dropdown-item">Muara Sibandang</a>
-                    </li>
-                  </ul>
-                </li>
-                <li>
-                  <a href="" class="dropdown-item"> Dairi &raquo;</a>
-                  <ul class="dropdown-menu submenu multi-menu">
-                    <li>
-                      <a href="" class="dropdown-item">Silalahi-Sabungan</a>
-                    </li>
-                  </ul>
-                </li>
-                <li>
-                  <a href="" class="dropdown-item"> Karo &raquo;</a>
-                  <ul class="dropdown-menu submenu multi-menu">
-                    <li>
-                      <a href="" class="dropdown-item">Sipisopiso-Tongging</a>
-                    </li>
-                  </ul>
-                </li>
-                <li>
-                  <a href="" class="dropdown-item"> Samosir &raquo;</a>
-                  <ul class="dropdown-menu submenu multi-menu">
-                    <li><a href="" class="dropdown-item">Tele</a></li>
-                    <li><a href="" class="dropdown-item">Pusukbuhit</a></li>
-                    <li>
-                      <a href="" class="dropdown-item">Hutatinggi Sodihoni</a>
-                    </li>
-                    <li>
-                      <a href="" class="dropdown-item">Ambarita-Tuktuk-Tomok</a>
-                    </li>
-                  </ul>
-                </li>
-              </ul>
-            </li>
-          </ul>
-        </li>
-      </ul>
-    </div>
+<body>
+  <div class="menu">
     <ul class="nav justify-content-center">
       <li class="nav-item">
-        <img src="./assets/logo.png" alt="logo" width=250px">
+
+        <a class="nav-link active" href="home.html">Beranda</a>
       </li>
-    </ul>
+      <li class="nav-item">
+        <a class="nav-link" href="tempat.html">Tempat</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="berita.html">Berita</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="galeri.html">Galeri</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="history.html">Sejarah</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Tentang Kami</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a href="" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Lainnya</a>
 
-    <div class="container">
-      <div class="d-flex justify-content-center">
-        <h2 id="judul">GEOSITE</h2>
-      </div>
-      <div class="d-flex justify-content-center">
-        <h2 id="judul">PUSUK BUHIT</h2>
-      </div>
-
-      <div class="d-flex justify-content-center">
-        <img src="assets/pusuk buhit.jpg" alt="" />
-      </div>
-      <br />
-      <div class="d-flex justify-content-center">
-        <p>
-          Pusuk Buhit adalah bagian dari Kaldera Toba yang terdapat di Sumatera
-          Utara. Gunung ini diperkirakan terbentuk sekitar 54,5 ribu tahun lalu.
-          Gunung ini memiliki ketinggian 1972 mdpl (meter di atas permukaan
-          laut) dan mencakup beberapa desa di Kecamatan Sianjur Mula-mula dan
-          Kecamatan Pangururan.
-        </p>
-      </div>
-      <div class="d-flex justify-content-center">
-        <p>
-          Geosite Geosite Pusuk Buhit berlokasi di Kabupaten Samosir. Bentang
-          alam pada kawasan ini yaitu Gunung Pusuk Buhit. Gunung tersebut sudah
-          lama tenang akan tetapi masih bisa berpotensi meletus. Aspek bioligi
-          Geosite ini terdapat Kambing Putih (Capraaegagrus) merupakan andemik
-          Toba, dan berdasarkan sejarahnya dipelihara penduduk setempat secara
-          turun temurun. Kambing Putih ini pada mulanya digunakan untuk bahan
-          upacara persembahan pada acara keagamaan salah satu aliran kepercayaan
-          aninisme (Parmalim) olehpenduduk setempat. Kambing yang dipersembahkan
-          harus yang berwarna putih, maka secara alami penduduk setempat sudah
-          selektif untuk memelihara kambing mereka, mengutamakan yang berwarna
-          putih.Kambing Putih ini bisa menyesuaikan diri dengan kondisi
-          ekosistem lahan kering dan berbatu-batu, walaupun pada musim kemarau
-          biasanya rumput sangat sulit dan kering. Dan topografinya berbukit,
-          ternyata kambing ini dapat beradaptasi dan berkembang biak dengan
-          baik.
-        </p>
-      </div>
-    </div>
-
-    <div class="container">
-      <footer
-        class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top"
-        style="background-color: rgba(0, 0, 0, 0)"
-      >
-        <p class="col-md-4 mb-0 text-muted">
-          © 2023 PSW-1 6 Kaldera-Geopark-Toba
-        </p>
-
-        <ul class="nav col-md-4 justify-content-end">
-          <li class="nav-item">
-            <a href="#" class="nav-link px-2 text-muted">Beranda</a>
+        <ul class="dropdown-menu">
+          <li><a href="" class="dropdown-item">Kerjasama &raquo;</a>
+            <ul class="dropdown-menu submenu">
+              <li><a href="./data_ind_chn.html" class="dropdown-item">Indonesia-China</a></li>
+              <li><a href="./data_unesco.html" class="dropdown-item">UNESCO</a></li>
+            </ul>
+          <li><a href="" class="dropdown-item">Geopark &raquo;</a>
+            <ul class="dropdown-menu submenu">
+              <li><a href="./Geopark Kaldera Toba.html" class="dropdown-item">Geopark Kaldera Toba</a></li>
+              <li><a href="organisasi.html" class="dropdown-item">Organisasi</a></li>
+              <li><a href="visi_misi.html" class="dropdown-item">Visi Misi</a></li>
+            </ul>
           </li>
-          <li class="nav-item">
-            <a href="./tempat.html" class="nav-link px-2 text-muted">Tempat</a>
-          </li>
-          <li class="nav-item">
-            <a href="./berita.html" class="nav-link px-2 text-muted">Berita</a>
-          </li>
-          <li class="nav-item">
-            <a href="#" class="nav-link px-2 text-muted">About Us</a>
-          </li>
-          <li class="nav-item">
-            <a href="#" class="nav-link px-2 text-muted">#</a>
+          <li><a href="./geosite.html" class="dropdown-item">Geosite &raquo;</a>
+            <ul class="dropdown-menu submenu">
+              <li><a href="" class="dropdown-item"> Simalungun &raquo;</a>
+                <ul class="dropdown-menu submenu multi-menu">
+                  <li><a href="" class="dropdown-item">Haranggaol</a></li>
+                  <li><a href="./sibaganding.html" class="dropdown-item">Sibaganding</a></li>
+                </ul>
+              </li>
+              <li><a href="" class="dropdown-item"> Toba Samosir &raquo;</a>
+                <ul class="dropdown-menu submenu multi-menu">
+                  <li><a href="" class="dropdown-item">Batu Basiha-TB Silalahi Balige</a></li>
+                  <li><a href="./situmurun.html" class="dropdown-item">Situmurun</a></li>
+                  <li><a href="./Taman Eden.html" class="dropdown-item">Taman Eden</a></li>
+                </ul>
+              </li>
+              <li><a href="" class="dropdown-item"> Humbang Hasundutan &raquo;</a>
+                <ul class="dropdown-menu submenu multi-menu">
+                  <li><a href="./sipinsur.html" class="dropdown-item">Sipincur</a></li>
+                  <li><a href="" class="dropdown-item">Bakara-Tipang</a></li>
+                </ul>
+              </li>
+              <li><a href="" class="dropdown-item"> Tapanuli Utara &raquo;</a>
+                <ul class="dropdown-menu submenu multi-menu">
+                  <li><a href="./Huta Ginjang.html" class="dropdown-item">Hutaginjang</a></li>
+                  <li><a href="./sibaganding.html" class="dropdown-item">Muara Sibandang</a></li>
+                </ul>
+              </li>
+              <li><a href="" class="dropdown-item"> Dairi &raquo;</a>
+                <ul class="dropdown-menu submenu multi-menu">
+                  <li><a href="./silalahi sabungan.html" class="dropdown-item">Silalahi-Sabungan</a></li>
+                </ul>
+              </li>
+              <li><a href="" class="dropdown-item"> Karo &raquo;</a>
+                <ul class="dropdown-menu submenu multi-menu">
+                  <li><a href="./Sipiso-piso.html" class="dropdown-item">Sipisopiso-Tongging</a></li>
+                </ul>
+              </li>
+              <li><a href="" class="dropdown-item"> Samosir &raquo;</a>
+                <ul class="dropdown-menu submenu multi-menu">
+                  <li><a href="./tele.html" class="dropdown-item">Tele</a></li>
+                  <li><a href="./Pusuk buhit.html" class="dropdown-item">Pusukbuhit</a></li>
+                  <li><a href="./Sidihoni.html" class="dropdown-item">Hutatinggi Sidihoni</a></li>
+                  <li><a href="./Abarita-Tuktuk.html" class="dropdown-item">Ambarita-Tuktuk-Tomok</a></li>
+                </ul>
+              </li>
+            </ul>
           </li>
         </ul>
-      </footer>
+      </li>
+    </ul>
+  </div>
+  <ul class="nav justify-content-center">
+    <li class="nav-item">
+      <img src="./assets/logo.png" alt="logo" width=250px">
+    </li>
+  </ul>
+
+  <div class="container">
+    <div class="d-flex justify-content-center">
+      <h2 id="judul">GEOSITE</h2>
     </div>
-    <script src="navbar.js"></script>
-  </body>
+    <div class="d-flex justify-content-center">
+      <h2 id="judul">PUSUK BUHIT</h2>
+    </div>
+
+    <div class="d-flex justify-content-center">
+      <img src="assets/pusuk buhit.jpg" alt="" />
+    </div>
+    <br />
+    <div class="d-flex justify-content-center">
+      <p>
+        Pusuk Buhit adalah bagian dari Kaldera Toba yang terdapat di Sumatera
+        Utara. Gunung ini diperkirakan terbentuk sekitar 54,5 ribu tahun lalu.
+        Gunung ini memiliki ketinggian 1972 mdpl (meter di atas permukaan
+        laut) dan mencakup beberapa desa di Kecamatan Sianjur Mula-mula dan
+        Kecamatan Pangururan.
+      </p>
+    </div>
+    <div class="d-flex justify-content-center">
+      <p>
+        Geosite Geosite Pusuk Buhit berlokasi di Kabupaten Samosir. Bentang
+        alam pada kawasan ini yaitu Gunung Pusuk Buhit. Gunung tersebut sudah
+        lama tenang akan tetapi masih bisa berpotensi meletus. Aspek bioligi
+        Geosite ini terdapat Kambing Putih (Capraaegagrus) merupakan andemik
+        Toba, dan berdasarkan sejarahnya dipelihara penduduk setempat secara
+        turun temurun. Kambing Putih ini pada mulanya digunakan untuk bahan
+        upacara persembahan pada acara keagamaan salah satu aliran kepercayaan
+        aninisme (Parmalim) olehpenduduk setempat. Kambing yang dipersembahkan
+        harus yang berwarna putih, maka secara alami penduduk setempat sudah
+        selektif untuk memelihara kambing mereka, mengutamakan yang berwarna
+        putih.Kambing Putih ini bisa menyesuaikan diri dengan kondisi
+        ekosistem lahan kering dan berbatu-batu, walaupun pada musim kemarau
+        biasanya rumput sangat sulit dan kering. Dan topografinya berbukit,
+        ternyata kambing ini dapat beradaptasi dan berkembang biak dengan
+        baik.
+      </p>
+    </div>
+  </div>
+
+  <div class="container">
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top"
+      style="background-color: rgba(0, 0, 0, 0)">
+      <p class="col-md-4 mb-0 text-muted">
+        © 2023 PSW-1 6 Kaldera-Geopark-Toba
+      </p>
+
+      <ul class="nav col-md-4 justify-content-end">
+        <li class="nav-item">
+          <a href="#" class="nav-link px-2 text-muted">Beranda</a>
+        </li>
+        <li class="nav-item">
+          <a href="./tempat.html" class="nav-link px-2 text-muted">Tempat</a>
+        </li>
+        <li class="nav-item">
+          <a href="./berita.html" class="nav-link px-2 text-muted">Berita</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link px-2 text-muted">About Us</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link px-2 text-muted">#</a>
+        </li>
+      </ul>
+    </footer>
+  </div>
+  <script src="navbar.js"></script>
+</body>
+
 </html>
